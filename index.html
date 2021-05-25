@@ -1,0 +1,115 @@
+<html>
+    <head>
+        <title>Login</title>
+    
+    <style>
+     body
+     {
+         font-family: Georgia, 'Times New Roman', Times, serif;
+         background-color: rgb(163, 161, 161);
+         background-image: url('blur.jpg');
+         background-size: cover;
+         padding-top: 10vh;
+         padding: 500px;
+         border-radius: 10px;
+         box-shadow: black;
+         margin: auto;
+         
+
+     }
+     input[type=text],input[type=password]
+     {
+         width: 35%;
+         padding: 12px 20px;
+         margin: 8px 0;
+         text-align: center;
+         display:  inline-block;
+         border: 1px solid rgb(14, 124, 64);
+         box-sizing: border-box;
+         border-radius: 5px
+         
+     }
+     button
+     {
+         background-color: rgb(18, 138, 64);
+         color: rgb(245, 240, 240);
+         padding: 10px 10px;
+         margin: 8px 0;
+         border: none;
+         cursor: pointer;
+         width: 25%;
+     }
+     button:hover
+     {
+         opacity: 0.8;
+     }
+     .imgcontainer
+     {
+         text-align: justify;
+         margin: 24px 0 12px 0;
+         position: relative;
+     }
+     .img.avatar
+     {
+         width: 30%;
+         border-radius: 40%;
+         
+     }
+     .modal-content
+     {
+         background-color: rgb(5, 5, 5);
+         overflow: auto;
+         padding-top: 60px;
+         width: 100%;
+         top: 0%;
+         left: 0;
+         z-index: 1;
+         position: fixed;
+     }
+     .modal-content
+     {
+         background-color: white;
+         margin: 5% auto 15% center;
+         border: 1px solid #888;
+         width: 25%;
+         padding: 10px;
+        
+     }
+     .container
+     {
+         padding: 16px;
+     }
+     span.psw
+     {
+         float: right;
+         padding-top: 16px;
+     }
+    </style>
+    </head>
+    <body>
+        <div class="modal">
+        <form class="modal-content animate">
+            <div class="imgcontaine">
+            <img src="img_avatar2.png" class="avatar"/>
+            </div>
+            <div class="container">
+            <h1><legend>Login</legend></h1>
+            <label>
+                Username:&nbsp;
+                </label>
+                 <input type="text" placeholder="username" maxlength="30" size="25"/>
+                <br>
+                <label>
+                    Password:&nbsp;&nbsp;
+                </label>
+                <input type="text" placeholder="***********">
+                <br>
+                <button><a href="event.html">Login</button></a>
+                 <label>
+                <p>No account?<a href="signup.html">Sign up</a></p>
+                </label>
+                </div>
+        </form>
+        </div>
+    </body>
+</html>
